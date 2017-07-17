@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: false #this is what makes it a client only it does not allow it to register with Eureka server
